@@ -1,0 +1,302 @@
+[
+  {
+    "compiler": "clang",
+    "optimization": "-O0",
+    "variant": "C includes",
+    "median_ms": 128.987533,
+    "samples_ms": [
+      114.498543,
+      125.278897,
+      128.987533,
+      130.90366,
+      131.054316
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O0",
+    "variant": "C Hooper forced shared",
+    "median_ms": 73.195914,
+    "samples_ms": [
+      79.346681,
+      68.479163,
+      73.195914,
+      71.099168,
+      78.879354
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O0",
+    "variant": "C Hooper macro fast path",
+    "median_ms": 91.399927,
+    "samples_ms": [
+      91.399927,
+      94.672595,
+      88.37652,
+      88.111235,
+      102.438427
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O0",
+    "variant": "C Hooper idiomatic inline",
+    "median_ms": 75.426669,
+    "samples_ms": [
+      83.091593,
+      80.033469,
+      68.186197,
+      75.426669,
+      75.018099
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O0",
+    "variant": "C Hooper idiomatic no hint",
+    "median_ms": 72.848705,
+    "samples_ms": [
+      72.943311,
+      71.73786,
+      71.870046,
+      72.848705,
+      79.812115
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O0",
+    "variant": "C++ templates",
+    "median_ms": 148.309956,
+    "samples_ms": [
+      143.588749,
+      157.10436,
+      148.309956,
+      158.850968,
+      143.6469
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O2",
+    "variant": "C includes",
+    "median_ms": 1518.817512,
+    "samples_ms": [
+      1514.618213,
+      1523.016811,
+      1492.326974,
+      1718.341976
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O2",
+    "variant": "C Hooper forced shared",
+    "median_ms": 831.2505575,
+    "samples_ms": [
+      786.606078,
+      787.352831,
+      877.325359,
+      875.148284
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O2",
+    "variant": "C Hooper macro fast path",
+    "median_ms": 1237.0788885,
+    "samples_ms": [
+      1212.903887,
+      1196.185418,
+      1278.049033,
+      1261.25389
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O2",
+    "variant": "C Hooper idiomatic inline",
+    "median_ms": 1268.3056235,
+    "samples_ms": [
+      1236.737039,
+      1208.151392,
+      1299.874208,
+      1332.63171
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O2",
+    "variant": "C Hooper idiomatic no hint",
+    "median_ms": 1342.7809445,
+    "samples_ms": [
+      1223.3143,
+      1255.2543,
+      1430.307589,
+      1588.802985
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O2",
+    "variant": "C++ templates",
+    "median_ms": 1572.3225825,
+    "samples_ms": [
+      1524.92749,
+      1560.337104,
+      1584.308061,
+      1601.496632
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O0",
+    "variant": "C includes",
+    "median_ms": 280.00271,
+    "samples_ms": [
+      334.547496,
+      287.989088,
+      280.00271,
+      279.589352,
+      279.03833
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O0",
+    "variant": "C Hooper forced shared",
+    "median_ms": 146.902423,
+    "samples_ms": [
+      175.639321,
+      205.896268,
+      139.070631,
+      144.672612,
+      146.902423
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O0",
+    "variant": "C Hooper macro fast path",
+    "median_ms": 175.384577,
+    "samples_ms": [
+      183.26406,
+      197.066662,
+      174.013896,
+      175.384577,
+      171.261013
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O0",
+    "variant": "C Hooper idiomatic inline",
+    "median_ms": 151.396629,
+    "samples_ms": [
+      164.235414,
+      148.637682,
+      145.674372,
+      151.396629,
+      155.030433
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O0",
+    "variant": "C Hooper idiomatic no hint",
+    "median_ms": 156.368654,
+    "samples_ms": [
+      182.415898,
+      204.654731,
+      144.619931,
+      156.368654,
+      144.402475
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O0",
+    "variant": "C++ templates",
+    "median_ms": 369.646753,
+    "samples_ms": [
+      379.316869,
+      409.578463,
+      369.646753,
+      353.122654,
+      326.693408
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O2",
+    "variant": "C includes",
+    "median_ms": 1219.445458,
+    "samples_ms": [
+      1191.800072,
+      1243.739193,
+      1195.151723,
+      1263.036346
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O2",
+    "variant": "C Hooper forced shared",
+    "median_ms": 807.317423,
+    "samples_ms": [
+      748.60927,
+      783.904218,
+      831.728331,
+      830.730628
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O2",
+    "variant": "C Hooper macro fast path",
+    "median_ms": 988.5997715000001,
+    "samples_ms": [
+      957.372414,
+      1078.885095,
+      989.665205,
+      987.534338
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O2",
+    "variant": "C Hooper idiomatic inline",
+    "median_ms": 1025.67535,
+    "samples_ms": [
+      1066.690045,
+      1022.561673,
+      1028.789027,
+      940.484479
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O2",
+    "variant": "C Hooper idiomatic no hint",
+    "median_ms": 1061.088258,
+    "samples_ms": [
+      1014.489831,
+      985.934852,
+      1107.686685,
+      1113.079736
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O2",
+    "variant": "C++ templates",
+    "median_ms": 1352.220558,
+    "samples_ms": [
+      1322.974906,
+      1372.350226,
+      1332.09089,
+      1421.368506
+    ]
+  }
+]

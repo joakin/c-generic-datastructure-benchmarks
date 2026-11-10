@@ -1,0 +1,14 @@
+# Generated binaries, object files, and temporary timing outputs
+**/bin/
+**/__pycache__/
+**/*.pyc
+**/*.o
+**/*.exe
+**/*.pid
+**/*.log
+**/_tmp_compile.o
+**/compile_bench.o
+**/compile_120_objects/
+**/*.gcda
+**/*.gcno
+.DS_Store

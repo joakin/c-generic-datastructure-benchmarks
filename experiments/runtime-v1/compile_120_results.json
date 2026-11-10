@@ -1,0 +1,194 @@
+[
+  {
+    "compiler": "clang",
+    "optimization": "-O0",
+    "variant": "C includes",
+    "median_ms": 136.313728,
+    "samples_ms": [
+      129.712273,
+      136.313728,
+      137.552761,
+      142.032857,
+      132.206699
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O0",
+    "variant": "Hooper shared",
+    "median_ms": 72.878915,
+    "samples_ms": [
+      72.153474,
+      72.878915,
+      71.991442,
+      83.450537,
+      86.741625
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O0",
+    "variant": "Hooper fastpath",
+    "median_ms": 83.660541,
+    "samples_ms": [
+      83.660541,
+      80.68976,
+      92.339555,
+      81.460695,
+      91.020062
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O0",
+    "variant": "C++ templates",
+    "median_ms": 154.38214,
+    "samples_ms": [
+      142.219927,
+      159.379683,
+      154.38214,
+      146.205185,
+      158.556039
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O2",
+    "variant": "C includes",
+    "median_ms": 1569.730796,
+    "samples_ms": [
+      1641.361652,
+      1569.730796,
+      1539.49431
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O2",
+    "variant": "Hooper shared",
+    "median_ms": 800.089523,
+    "samples_ms": [
+      889.379982,
+      797.332319,
+      800.089523
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O2",
+    "variant": "Hooper fastpath",
+    "median_ms": 1211.155796,
+    "samples_ms": [
+      1243.772428,
+      1173.106793,
+      1211.155796
+    ]
+  },
+  {
+    "compiler": "clang",
+    "optimization": "-O2",
+    "variant": "C++ templates",
+    "median_ms": 1593.826768,
+    "samples_ms": [
+      1593.826768,
+      1566.161404,
+      1658.665075
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O0",
+    "variant": "C includes",
+    "median_ms": 278.642018,
+    "samples_ms": [
+      301.806521,
+      278.642018,
+      274.748754,
+      278.249974,
+      302.227467
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O0",
+    "variant": "Hooper shared",
+    "median_ms": 147.772207,
+    "samples_ms": [
+      145.148095,
+      152.773723,
+      146.584226,
+      147.772207,
+      158.922364
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O0",
+    "variant": "Hooper fastpath",
+    "median_ms": 181.392196,
+    "samples_ms": [
+      179.901383,
+      172.746668,
+      190.189831,
+      185.089938,
+      181.392196
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O0",
+    "variant": "C++ templates",
+    "median_ms": 334.47528,
+    "samples_ms": [
+      334.101944,
+      341.610598,
+      307.884391,
+      334.47528,
+      341.183049
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O2",
+    "variant": "C includes",
+    "median_ms": 1245.518807,
+    "samples_ms": [
+      1218.619525,
+      1245.600952,
+      1245.518807
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O2",
+    "variant": "Hooper shared",
+    "median_ms": 768.105372,
+    "samples_ms": [
+      768.105372,
+      818.222525,
+      759.610247
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O2",
+    "variant": "Hooper fastpath",
+    "median_ms": 950.167704,
+    "samples_ms": [
+      944.338088,
+      979.253286,
+      950.167704
+    ]
+  },
+  {
+    "compiler": "gcc",
+    "optimization": "-O2",
+    "variant": "C++ templates",
+    "median_ms": 1352.43715,
+    "samples_ms": [
+      1352.43715,
+      1279.757793,
+      1483.325529
+    ]
+  }
+]
